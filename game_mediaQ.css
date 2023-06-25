@@ -1,0 +1,218 @@
+/* RESPONSIVE SCREEN @1200px (75em): DESKTOP */
+@media (max-width: 75em) {
+  .entry--container {
+    width: 100%;
+    height: 100%;
+  }
+  .entry--btn {
+    height: 10rem;
+    font-size: 3rem;
+  }
+  .again {
+    width: 10rem;
+    height: 5rem;
+    font-size: 2.5rem;
+  }
+  .hint {
+    font-size: 2.5rem;
+  }
+  .main--game-container {
+    padding: 8rem 0 2.5rem 0;
+  }
+  .main--game {
+    width: 80%;
+    height: 80%;
+  }
+  .input {
+    width: 15rem;
+    height: 8rem;
+  }
+  .guess--btn {
+    width: 15rem;
+    height: 6rem;
+    font-size: 3rem;
+  }
+  .replay {
+    width: 50%;
+    left: 20%;
+  }
+  .replayimg {
+    display: none;
+  }
+  .options {
+    width: 100%;
+    text-align: center;
+  }
+  .lost {
+    font-size: 5rem;
+  }
+  .do--u {
+    font-size: 3rem;
+  }
+  .btn {
+    font-size: 3.5rem;
+    width: 10rem;
+    height: 5rem;
+  }
+}
+/* RESPONSIVE SCREEN @900px (56.25em): IPAD */
+@media (max-width: 56.5em) {
+  /* DEALING WITH THE INTRO SECTION */
+  .entry--container {
+    width: 100%;
+    height: 100%;
+  }
+  .entry--btn {
+    height: 8rem;
+    font-size: 3rem;
+    left: 30%;
+  }
+  .main--game-container {
+    padding: 10rem 0 2.5rem 0;
+  }
+  .replay {
+    width: 80%;
+    left: 10%;
+  }
+  /* .replayimg {
+    display: none;
+  }
+  .options {
+    width: 100%;
+    text-align: center;
+  }
+  .lost {
+    font-size: 5rem;
+  }
+  .do--u {
+    font-size: 3rem;
+  }
+  .btn {
+    font-size: 3.5rem;
+    width: 10rem;
+    height: 5rem;
+  } */
+}
+/* RESPONSIVE SCREEN @600px (37.5em): MOBILE */
+@media (max-width: 37.5em) {
+  .entry--container {
+    width: 100%;
+    height: 100%;
+  }
+  .entry--btn {
+    height: 8rem;
+    font-size: 3rem;
+    left: 20%;
+  }
+  .main--game-container {
+    padding: 0;
+  }
+  .main--game {
+    width: 100%;
+    height: 100%;
+  }
+  .hint {
+    margin-right: 10rem;
+    font-size: 2rem;
+  }
+  .replay {
+    width: 90%;
+    left: 5%;
+  }
+  .replayimg {
+    display: none;
+  }
+  .options {
+    width: 100%;
+    text-align: center;
+  }
+  .lost {
+    font-size: 5rem;
+  }
+  .do--u {
+    font-size: 3rem;
+  }
+  .btn {
+    font-size: 3.5rem;
+    width: 10rem;
+    height: 5rem;
+  }
+}
+/* RESPONSIVE SCREEN @470px (29.4em): MOBILE */
+@media (max-width: 29.4em) {
+  .main--game {
+    width: 100%;
+    height: 100%;
+  }
+  .hint--ct {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 5rem;
+  }
+  .mynumber {
+    text-align: left;
+    padding-left: 0.5rem;
+  }
+  .missing--num {
+    width: 20%;
+    margin-left: 5rem;
+  }
+  .input--field {
+    margin-top: 10rem;
+    flex-direction: column;
+  }
+  .input {
+    width: 15rem;
+    height: 5rem;
+  }
+  .guess--btn {
+    width: 15rem;
+    height: 5rem;
+    font-size: 3rem;
+  }
+  .start {
+    margin: 1.5rem 0 0.5rem 0;
+  }
+  .replay {
+    width: 100%;
+    height: 50%;
+    left: 0;
+  }
+}
+/* RESPONSIVE SCREEN @240px (15em): SMALL-MOBILE */
+@media (max-width: 15em) {
+  .entry--container {
+    width: 100%;
+    height: 100%;
+  }
+  .entry--btn {
+    width: 70%;
+    height: 8rem;
+    font-size: 2.5rem;
+    left: 5%;
+  }
+  .replay {
+    width: 100%;
+    height: 70vh;
+    left: 0;
+  }
+  /* .replayimg {
+    display: none;
+  }
+  .options {
+    width: 100%;
+    text-align: center;
+  }
+  .lost {
+    font-size: 5rem;
+  }
+  .do--u {
+    font-size: 2.5rem;
+  }
+  .btn {
+    display: block;
+    font-size: 3rem;
+    width: 10rem;
+    height: 5rem;
+    margin-bottom: 2rem; */
+}

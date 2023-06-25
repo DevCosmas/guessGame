@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width= , initial-scale=1.0" />
+    <title>Guess Game</title>
+    <link rel="stylesheet" href="/Guess_game.css" />
+    <link rel="stylesheet" href="game_mediaQ.css" />
+  </head>
+  <body>
+    <main>
+      <div class="entry">
+        <img
+          src="/games_guess_the_number.png"
+          alt="do you want to guess img"
+          class="entry"
+        />
+        <button class="entry--btn">start Game</button>
+      </div>
+      <div class="main--game-container">
+        <div class="main--game">
+          <div class="hint--ct">
+            <button class="again">again !</button>
+            <span class="hint">(choose between 1 to 20)</span>
+          </div>
+          <p class="mynumber">guess my number?</p>
+          <div class="missing--num">?</div>
+          <div class="input--field">
+            <div class="input--container">
+              <input
+                class="input"
+                type="n
+        "
+              />
+              <button class="guess--btn">guess</button>
+            </div>
+            <section>
+              <p class="guess--paragraph start">start guessing...</p>
+              <p class="guess--paragraph scoreboard">
+                score: <span class="score">20</span>
+              </p>
+              <p class="guess--paragraph highest--scoreboard">
+                highscore: <span class="highest">0</span>
+              </p>
+            </section>
+          </div>
+        </div>
+        <div class="replay--container">
+          <div class="replay">
+            <div class="replayimg"></div>
+            <div class="options">
+              <p class="lost">you lost!</p>
+              <p class="do--u">
+                do you want to <br />
+                play again?
+              </p>
+              <button class="btn yes">yes</button>
+              <button class="btn no">no</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="Guess_game.js"></script>
+  </body>
+</html>
